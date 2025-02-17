@@ -31,6 +31,7 @@ namespace calculator
             }
             else
             {
+                Console.WriteLine("Cannot divide by zero.");
                 return null;
             }
         }
